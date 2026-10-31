@@ -1,0 +1,10 @@
+# CloudToLocal 仅依赖 Python 标准库，无需安装任何第三方包。
+#
+# 运行环境：
+#   - Python 3.9+（脚本首行已声明）
+#   - Node.js（可选，用于 PoW 求解；缺失时自动回退纯 Python 求解）
+#   - Ollama（可选，仅在使用本地模型时需要；默认从 ollama.com 安装）
+#
+# 如需用虚拟环境：
+#   python -m venv .venv && .venv\Scripts\activate   # Windows
+#   pip install -r requirements.txt                  # 本文件为空，仅为约定俗成
